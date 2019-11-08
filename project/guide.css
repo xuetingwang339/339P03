@@ -1,0 +1,49 @@
+body{
+margin:3em;
+
+}
+
+
+h1 {
+    color:	#ff5700;
+    
+}
+
+h2 {
+    border-bottom-color: #ff5700;
+    border-bottom-style: solid;
+    display: inline-block;
+    padding-bottom: 0.2em;
+}
+
+p a{
+text-decoration: none;
+    color: #ff5700;
+
+}
+
+p a:hover{
+text-decoration: none;
+    color: 	#ffd700;
+
+}
+
+
+.navMain a{
+text-decoration: none;
+    display: inline-block;
+    color: #ff5700;
+    margin: 1em;
+     padding-bottom: 0.2em;
+    border-color: transparent;
+     border-bottom-style: solid;
+
+}
+
+.navMain a:hover{
+ color: black;
+    border-bottom-style: solid;
+    display: inline-block;
+    padding-bottom: 0.2em;
+
+}

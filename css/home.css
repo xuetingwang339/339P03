@@ -1,0 +1,25 @@
+
+.intro {
+    width: 100%;
+    height: 35em;
+    background-color: #ffd700;
+    
+}
+
+.intro p{
+width:70%;
+    font-size: 2em;
+    color: white;
+    padding: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.pow {
+    width: 100%;
+    height: 35em;
+ 
+}
