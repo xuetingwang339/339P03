@@ -1,14 +1,15 @@
 .intro {
     width: 100%;
-    height: 30em;
+    height: auto;
 }
 
 .intro p {
-    width: 70%;
+    width: 60%;
     font-family: 'Hind Siliguri', sans-serif;
-    font-size: 2em;
-    color: #12839f;
-    padding: 5em;
+    font-weight: 500;
+    font-size: 2.2em;
+    color: #0c5b6f;
+    padding: 4em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,10 +18,10 @@
 }
 
 .pow {
-    width: 100%;
+    /*    width: 100%;*/
     height: auto;
     display: flex;
-
+    margin: 3em;
 }
 
 #project {
@@ -30,18 +31,27 @@
 }
 
 .pow img {
-    height: 30em;
+    height: 28em;
     width: 100%;
 
 }
 
 .overlay {
     position: absolute;
-top:0;
-    height: 30em;
+    top: 0;
+    height: 28em;
     width: 100%;
     opacity: 0;
-    background-color: #f6b10b;
+    background-color: #88c1cf;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    height: 28em;
+    width: 100%;
+    opacity: 0;
+    background-color: #9781cd;
 }
 
 #project:hover .overlay {
@@ -49,9 +59,14 @@ top:0;
     transition: .3s ease;
 }
 
+#project:hover .overlay2 {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
 .text {
     color: black;
-    font-size: 20px;
+    font-size: 3em;
     position: absolute;
     top: 50%;
     left: 50%;

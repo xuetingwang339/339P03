@@ -11,8 +11,8 @@
         padding-bottom: 3em;
     width: auto;
         height: auto;
-/*        margin-bottom: 8em;*/
-    background-color: #ffd700;
+
+ 
     }
     
     .section p {
@@ -24,7 +24,7 @@
     h1 {
         font-size: 2em;
         text-decoration: none;
-        color: white;
+        color: #12839f;
         text-align: center;
         margin-top: 1em;
         margin-bottom: 1em;
