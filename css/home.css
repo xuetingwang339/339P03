@@ -1,0 +1,61 @@
+.intro {
+    width: 100%;
+    height: 30em;
+}
+
+.intro p {
+    width: 70%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 2em;
+    color: #12839f;
+    padding: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.pow {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+#project {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.pow img {
+    height: 30em;
+    width: 100%;
+
+}
+
+.overlay {
+    position: absolute;
+top:0;
+    height: 30em;
+    width: 100%;
+    opacity: 0;
+    background-color: #f6b10b;
+}
+
+#project:hover .overlay {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
