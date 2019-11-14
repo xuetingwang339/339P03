@@ -1,71 +1,61 @@
-
 @media screen and (min-width: 1120px) {
-    .result {
-        position: relative;
-        height: 8em;
-        z-index: -1;
 
-    }
-    .section{
-        padding-top: 2em;
-        padding-bottom: 3em;
-    width: auto;
+    .section {
+        margin: 3em;
+        margin-top: 5em;
+        width: auto;
         height: auto;
 
- 
+
     }
-    
+
     .section p {
-    margin-left:15em;
-        margin-right: 15em;
-        
-    
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.2em;
+
     }
+
     h1 {
-        font-size: 2em;
+        font-size: 2.5em;
         text-decoration: none;
         color: #12839f;
         text-align: center;
         margin-top: 1em;
         margin-bottom: 1em;
     }
-    .rowEvent {
-    display: block;
-    height: auto;
-    margin-left: 5em;
-    margin-right: 5em;
-   margin-bottom: 3em;
-    margin-top: 2em;
-}
 
-.rowEvent img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+ h2 {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #12839f;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
-.rowEvent2 {
-    display: flex;
-    margin:2em 5em;
-  flex-flow: wrap;
+    .rowEvent2 {
+        display: flex;
+        margin: 2em 5em;
+        flex-flow: wrap;
 
 
 
-}
+    }
 
-.colEvent {
-    height: auto;
-    width: 47%;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .colEvent {
+        height: auto;
+        width: 67%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.colEvent img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    .colEvent img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
 
-}
+    }
 
 }

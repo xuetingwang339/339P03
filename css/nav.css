@@ -7,9 +7,17 @@ body {
 .img {
 
     display: inline-block;
-    width: 3em;
-    height: 3em;
-    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+   
+}
+
+.img img {
+    position: relative;
+    display: inline-block;
+    width: 2.1em;
+    height: 2em;
+
 }
 
 .navMain a {
@@ -43,7 +51,7 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
-/*
+    /*
     width: 100%;
     max-width: 100%;
 */
