@@ -1,64 +1,7 @@
-.project1 {
-    width: 100%;
-    height: auto;
-    background-color: #ffd700;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-
-.project2 {
-    padding-top: 5em;
-    width: 100%;
-    height: auto;
-    background-color: #ff5700;
-    padding-bottom: 5em;
-}
-
-.project2 p {
-    color: white;
-
-}
-
-.p1 {
-    display: flex;
-    flex-flow: nowrap;
-    width: 100%;
-    height: auto;
-
-    padding-top: 1.5em;
-}
-
-.empty {
-    height: 3em;
-    width: 8em;
-
-    flex-grow: 1;
-}
-
-.empty2 {
-    height: 3em;
-    width: 8em;
-
-    flex-grow: 3;
-}
-
-.p1 img {
-    width: 100%;
-
-
-}
-
-.pintro {
-    flex-grow: 2;
-    width: 25%;
-
-
-}
-
-.pimg {
-    flex-grow: 2;
-    width: auto;
-    height: auto;
-    width: 25%;
+p{
+  margin-left: 20%;
+        margin-right: 20%;
+        font-size: 1.2em;
+        color: #0c5b6f;
 
 }

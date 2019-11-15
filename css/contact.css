@@ -7,10 +7,12 @@ h1 {
     margin-bottom: 1em;
 
 }
-label{
-color: #0c5b6f;
+
+label {
+    color: #0c5b6f;
     font-size: 1.3em;
 }
+
 input[type=text],
 select,
 textarea {
@@ -18,34 +20,42 @@ textarea {
     border: 1px solid black;
     box-sizing: border-box;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+   
     resize: vertical;
 }
 
 .info input {
-    padding-bottom: 1em;
+    padding: 0.2em;
+    font-size: 1.2em;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .message textarea {
+    padding: 0.2em;
     padding-bottom: 6em;
-
+    font-size: 1.2em;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 input[type=submit] {
     background-color: #12839f;
     color: white;
     display: block;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     margin-right: auto;
     margin-left: auto;
-    padding: 1em 7em;
+    padding: 0.8em 6em;
     border: none;
+    font-size: 1.2em;
     cursor: pointer;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 input[type=submit]:hover {
     transition-duration: 0.3s;
-    background-color: #5f8c4b;;
+    background-color: #5f8c4b;
+    
 }
 
 .review {
