@@ -1,24 +1,25 @@
 body{
 margin:3em;
-
+    background-color: #fbfafa;
+font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 
 h1 {
-    color:	#ff5700;
+    color:	#5f8c4b;
     
 }
 
 h2 {
-    border-bottom-color: #ff5700;
-    border-bottom-style: solid;
-    display: inline-block;
+  color: #12839f;  
+    
     padding-bottom: 0.2em;
 }
 
 p a{
 text-decoration: none;
-    color: #ff5700;
+    color: #12839f; ;
 
 }
 
@@ -32,7 +33,7 @@ text-decoration: none;
 .navMain a{
 text-decoration: none;
     display: inline-block;
-    color: #ff5700;
+    color:	#5f8c4b;
     margin: 1em;
      padding-bottom: 0.2em;
     border-color: transparent;
@@ -41,7 +42,7 @@ text-decoration: none;
 }
 
 .navMain a:hover{
- color: black;
+ color: #12839f;
     border-bottom-style: solid;
     display: inline-block;
     padding-bottom: 0.2em;

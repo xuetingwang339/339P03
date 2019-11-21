@@ -31,7 +31,7 @@
 }
 
 .pow img {
-    height: 28em;
+    height: 100%;
     width: 100%;
 
 }
@@ -39,7 +39,7 @@
 .overlay {
     position: absolute;
     top: 0;
-    height: 28em;
+    height: 100%;
     width: 100%;
     opacity: 0;
     background-color: #88c1cf;
@@ -48,7 +48,7 @@
 .overlay2 {
     position: absolute;
     top: 0;
-    height: 28em;
+    height: 100%;
     width: 100%;
     opacity: 0;
     background-color: #9781cd;
@@ -67,7 +67,7 @@
 .text {
     color: white;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 280%;
     width: 70%;
     font-weight: 500;
     position: absolute;
@@ -75,5 +75,85 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+
+}
+
+@media screen and (max-width: 1120px){
+.intro p {
+    width: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    color: #0c5b6f;
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    
+  .pow {
+      
+    width: 100%;
+    height: auto;
+    display: block;
+      
+    
+}  
+    #project {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+.pow img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #88c1cf;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #9781cd;
+}
+
+#project:hover .overlay {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+#project:hover .overlay2 {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
 
 }
