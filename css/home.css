@@ -17,7 +17,8 @@
 
 
 }
-.about p{
+
+.about p {
 
     width: 50%;
     font-family: 'Hind Siliguri', sans-serif;
@@ -34,7 +35,7 @@
 
 
 h1 {
-  width: 50%;
+    width: 50%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
     font-size: 2em;
@@ -47,7 +48,7 @@ h1 {
 }
 
 h2 {
-  width: 50%;
+    width: 50%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
     font-size: 2.5em;
@@ -58,12 +59,14 @@ h2 {
     margin-top: 2em;
     margin-right: auto;
 }
+
 .introSub {
     position: relative;
     height: auto;
     width: 100%;
     padding-top: 3em;
     padding-bottom: 4em;
+
 }
 
 .introSub img {
@@ -78,102 +81,170 @@ h2 {
 
 #sub {
     position: relative;
-    margin-top: -6%;
+    margin-top: -6.5%;
     display: block;
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 200%;
     color: #7bbd63;
 }
 
-
-}
-
-@media screen and (max-width: 900px) {
-    .intro {
-        width: auto;
-        height: auto;
-    }
-
-    .intro p {
-
-        width: 70%;
+@media screen and (max-width: 1334px) {
+    #sub {
+        position: relative;
+        margin-top: -6.5%;
+        display: block;
+        text-align: center;
         font-family: 'Hind Siliguri', sans-serif;
         font-weight: 500;
-        font-size: 1.5em;
-        color: #0c5b6f;
-        padding: 0em;
+        font-size: 150%;
+        color: #7bbd63;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        width: 50%;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #intro {
+        width: 70%;
+        font-size: 1.1em;
+
+    }
+
+    .about p {
+        width: 70%;
+        font-size: 1.1em;
+
+    }
+
+    .introSub {
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    .introSub img {
+        position: relative;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 80%;
+        height: auto;
 
     }
 
 
-    .pow {
+}
 
-        width: auto;
-        height: auto;
-        display: block;
-
-
-    }
-
-    #project {
-        width: 100%;
-        height: auto;
+@media screen and (max-width: 930px) {
+    #sub {
         position: relative;
-    }
-
-
-
-    .pow img {
-        height: 100%;
-        width: 100%;
-
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        background-color: #88c1cf;
-    }
-
-    .overlay2 {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        background-color: #9781cd;
-    }
-
-    #project:hover .overlay {
-        opacity: 0.75;
-        transition: .3s ease;
-    }
-
-    #project:hover .overlay2 {
-        opacity: 0.75;
-        transition: .3s ease;
-    }
-
-    .text {
-        color: white;
+        margin-top: -6%;
+        display: block;
         text-align: center;
-        font-size: 30px;
-        width: 70%;
+        font-family: 'Hind Siliguri', sans-serif;
         font-weight: 500;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-
-
+        font-size: 150%;
+        color: #7bbd63;
     }
+
+    figure {
+        width: 100%;
+        /*container-width*/
+        overflow: hidden;
+        /*hide bounds of image */
+        margin: 0;
+        /*reset margin of figure tag*/
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .introSub img {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        width: 100%;
+        /*container-width*/
+        overflow: hidden;
+        /*hide bounds of image */
+        margin: 0;
+        /*reset margin of figure tag*/
+    }
+
+    #sub {
+        position: relative;
+        margin-top: -10%;
+        display: block;
+        text-align: center;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 500;
+        font-size: 150%;
+        color: #7bbd63;
+    }
+
+
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 0px) {
+    /*
+.introSub img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    
+}
+
+    #sub {
+    position: relative;
+    margin-top: -8%;
+    display: block;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: #7bbd63;
+}
+*/
+
+    figure {
+        width: 100%;
+        /*container-width*/
+        overflow: hidden;
+        /*hide bounds of image */
+        margin: 0;
+        /*reset margin of figure tag*/
+    }
+
+    #sub {
+        position: relative;
+        margin-top: -9%;
+        display: block;
+        text-align: center;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 500;
+        font-size: 80%;
+        color: #7bbd63;
+    }
+
 }
