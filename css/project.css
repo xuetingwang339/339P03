@@ -1,7 +1,59 @@
-p{
-  margin-left: 20%;
-        margin-right: 20%;
-        font-size: 1.2em;
-        color: #0c5b6f;
+.pow {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#project {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.pow img {
+    height: 100%;
+    width: 100%;
 
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #88c1cf;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #9781cd;
+}
+
+#project:hover .overlay {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+#project:hover .overlay2 {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    width: 70%;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);

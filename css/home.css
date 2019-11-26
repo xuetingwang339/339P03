@@ -4,13 +4,27 @@
     display: block;
 }
 
-.intro p {
-    width: 60%;
+#intro {
+    width: 50%;
     font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
-    font-size: 2.2em;
+    font-weight: 400;
+    font-size: 1.3em;
     color: #0c5b6f;
-    padding: 4em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.about p{
+
+    width: 50%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #0c5b6f;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,150 +32,148 @@
 
 }
 
-.pow {
-    width: auto;
-    height: auto;
-    display: flex;
-    margin: 3em;
-}
 
-#project {
-    width: 50%;
-    height: auto;
-    position: relative;
-}
-
-.pow img {
-    height: 100%;
-    width: 100%;
-
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: #88c1cf;
-}
-
-.overlay2 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: #9781cd;
-}
-
-#project:hover .overlay {
-    opacity: 0.75;
-    transition: .3s ease;
-}
-
-#project:hover .overlay2 {
-    opacity: 0.75;
-    transition: .3s ease;
-}
-
-.text {
-    color: white;
-    text-align: center;
-    font-size: 280%;
-    width: 70%;
+h1 {
+  width: 50%;
+    font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #7bbd63;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-right: auto;
+}
+
+h2 {
+  width: 50%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #7bbd63;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-right: auto;
+}
+.introSub {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.introSub img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+
+}
+
+#sub {
+    position: relative;
+    margin-top: -6%;
+    display: block;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    color: #7bbd63;
+}
+
 
 }
 
 @media screen and (max-width: 900px) {
     .intro {
-    width: auto;
-    height: auto;
-}
+        width: auto;
+        height: auto;
+    }
 
     .intro p {
-       
-    width: 70%;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
-    color: #0c5b6f;
-    padding: 0em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+        width: 70%;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 500;
+        font-size: 1.5em;
+        color: #0c5b6f;
+        padding: 0em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
-    
-  .pow {
-     
-    width: auto;
-    height: auto;
-    display: block;
-      
-    
-}  
- #project {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
+
+    .pow {
+
+        width: auto;
+        height: auto;
+        display: block;
 
 
-
-.pow img {
-    height: 100%;
-    width: 100%;
-
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: #88c1cf;
     }
 
-.overlay2 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: #9781cd;
-}
-
-#project:hover .overlay {
-    opacity: 0.75;
-    transition: .3s ease;
-}
-
-#project:hover .overlay2 {
-    opacity: 0.75;
-    transition: .3s ease;
-}
-
-.text {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    width: 70%;
-    font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    #project {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 
 
-}
+
+    .pow img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #88c1cf;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #9781cd;
+    }
+
+    #project:hover .overlay {
+        opacity: 0.75;
+        transition: .3s ease;
+    }
+
+    #project:hover .overlay2 {
+        opacity: 0.75;
+        transition: .3s ease;
+    }
+
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        width: 70%;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+
+
+    }
 }
