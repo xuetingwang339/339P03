@@ -51,9 +51,139 @@
     text-align: center;
     font-size: 300%;
     width: 70%;
+    height: auto;
     font-weight: 500;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1140px) {
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 250%;
+        width: 70%;
+        height: auto;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+}
+
+@media screen and (max-width: 925px) {
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 200%;
+        width: 70%;
+        height: auto;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+}
+
+
+@media screen and (max-width: 748px) {
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 200%;
+        width: 70%;
+        height: auto;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    #project {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .pow img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #88c1cf;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #9781cd;
+    }
+
+    .pow {
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 373px) {
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 150%;
+        width: 70%;
+        height: auto;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+
+
+}
+
+@media screen and (max-width: 285px) {
+    .text {
+        color: white;
+        text-align: center;
+        font-size: 100%;
+        width: 70%;
+        height: auto;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+
+
+}

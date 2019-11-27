@@ -91,7 +91,6 @@ body {
 
 
 .img {
-
     display: inline-block;
     width: auto;
     height: auto;
@@ -101,8 +100,8 @@ body {
 .img img {
     position: relative;
     display: inline-block;
-    width: 3.2em;
-    height: 3.2em;
+    width: 3em;
+    height: 3em;
 
 }
 
@@ -143,8 +142,8 @@ body {
     padding-top: 2em;
     padding-bottom: 1em;
     justify-content: space-between;
-    padding-left: 7em;
-    padding-right: 7em;
+    padding-left: 8%;
+    padding-right: 8%;
 
 }
 
@@ -154,6 +153,35 @@ body {
 
 footer {
     background-color: #7bbd63;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    border-style: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+
+    border-style: none;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #12839f;
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 768px) {
@@ -162,19 +190,18 @@ footer {
         text-align: center;
         display: flex;
         align-items: center;
-
         height: 3em;
         padding-top: 2em;
         padding-bottom: 1em;
         justify-content: space-between;
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 8%;
+        padding-right: 8%;
 
     }
 }
 
 
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 680px) {
     .navMain {
         flex-flow: nowrap;
         text-align: center;
@@ -204,6 +231,20 @@ footer {
         transition: 0.3s;
     }
 
+    .navMain a:hover {
+
+        border-style: none;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: #12839f;
+        transition: 0.2s;
+    }
+footer a {
+    font-size: 0.7em;
+    transition: 0.3s;
+}
 }
 
 @media screen and (max-width: 355px) {
@@ -211,5 +252,36 @@ footer {
         font-size: 0.5em;
         transition: 0.3s;
     }
+    footer a {
+    font-size: 0.5em;
+    transition: 0.3s;
+}
 
+
+}
+
+@media screen and (max-width: 280px) {
+    .navMain a {
+        font-size: 0.3em;
+        transition: 0.3s;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .navMain a:hover {
+
+        border-style: none;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: #12839f;
+        transition: 0.2s;
+    }
+footer a {
+    font-size: 0.3em;
+    transition: 0.3s;
+}
 }

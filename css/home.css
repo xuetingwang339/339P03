@@ -5,10 +5,10 @@
 }
 
 #intro {
-    width: 50%;
+    width: 55%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #0c5b6f;
     text-align: center;
     display: block;
@@ -20,10 +20,10 @@
 
 .about p {
 
-    width: 50%;
+    width: 55%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #0c5b6f;
     text-align: center;
     display: block;
@@ -62,8 +62,11 @@ h2 {
 
 .introSub {
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-    width: 100%;
+    width: 60%;
     padding-top: 3em;
     padding-bottom: 4em;
 
@@ -74,71 +77,55 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     height: auto;
 
 }
 
-#sub {
-    position: relative;
-    margin-top: -6.5%;
-    display: block;
-    text-align: center;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
-    font-size: 200%;
-    color: #7bbd63;
-}
 
-@media screen and (max-width: 1334px) {
-    #sub {
-        position: relative;
-        margin-top: -6.5%;
-        display: block;
-        text-align: center;
-        font-family: 'Hind Siliguri', sans-serif;
-        font-weight: 500;
-        font-size: 150%;
-        color: #7bbd63;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     h2 {
-        width: 50%;
+        width: 60%;
         font-size: 2em;
     }
 
     h1 {
         font-size: 1.8em;
+        margin-top: 1em;
     }
 
     #intro {
-        width: 70%;
+        width: 60%;
         font-size: 1.1em;
 
     }
 
     .about p {
-        width: 70%;
+        width: 60%;
         font-size: 1.1em;
 
     }
 
     .introSub {
-        position: relative;
-        height: auto;
-        width: 100%;
-        padding-top: 1em;
-        padding-bottom: 2em;
-    }
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    padding-top: 3em;
+    padding-bottom: 4em;
+
+}
 
     .introSub img {
         position: relative;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 100%;
         height: auto;
 
     }
@@ -179,72 +166,44 @@ h2 {
         height: auto;
     }
 
-    figure {
-        width: 100%;
-        /*container-width*/
-        overflow: hidden;
-        /*hide bounds of image */
-        margin: 0;
-        /*reset margin of figure tag*/
-    }
-
-    #sub {
-        position: relative;
-        margin-top: -10%;
-        display: block;
-        text-align: center;
-        font-family: 'Hind Siliguri', sans-serif;
-        font-weight: 500;
-        font-size: 150%;
-        color: #7bbd63;
-    }
-
-
-
-}
-
-@media screen and (max-width: 414px) and (min-width: 0px) {
-    /*
-.introSub img {
+  .introSub {
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     height: auto;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+
+}
+
+    h2{
+    font-size: 1.6em;
+        width: 80%
+
     
-}
+    }
+    
+    h1 {
+    font-size: 1.3em;
+    }
 
-    #sub {
-    position: relative;
-    margin-top: -8%;
-    display: block;
-    text-align: center;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-weight: 500;
+    .about p {
+        width: 60%;
+        font-size: 1em;
+
+    }
+    #intro {
+        width: 60%;
     font-size: 1em;
-    color: #7bbd63;
+    }
 }
-*/
 
-    figure {
-        width: 100%;
-        /*container-width*/
-        overflow: hidden;
-        /*hide bounds of image */
-        margin: 0;
-        /*reset margin of figure tag*/
-    }
+@media screen and (max-width: 414px) and (min-width: 0px) {
+   
 
-    #sub {
-        position: relative;
-        margin-top: -9%;
-        display: block;
-        text-align: center;
-        font-family: 'Hind Siliguri', sans-serif;
-        font-weight: 500;
-        font-size: 80%;
-        color: #7bbd63;
-    }
+
+
 
 }
