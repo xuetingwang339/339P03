@@ -4,9 +4,11 @@
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 3em;
 }
 
-#project {
+
+.project {
     width: 50%;
     height: auto;
     position: relative;
@@ -36,12 +38,12 @@
     background-color: #9781cd;
 }
 
-#project:hover .overlay {
+.project:hover .overlay {
     opacity: 0.75;
     transition: .3s ease;
 }
 
-#project:hover .overlay2 {
+.project:hover .overlay2 {
     opacity: 0.75;
     transition: .3s ease;
 }
@@ -110,7 +112,7 @@
         -ms-transform: translate(-50%, -50%);
     }
 
-    #project {
+    .project {
         width: 100%;
         height: auto;
         position: relative;
@@ -187,3 +189,5 @@
 
 
 }
+
+

@@ -152,13 +152,16 @@ body {
 }
 
 footer {
+  
     background-color: #7bbd63;
     width: 100%;
     height: auto;
     text-align: center;
+    margin-top: 11em;
 }
 
 footer a {
+    
     text-decoration: none;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
