@@ -8,7 +8,7 @@
     width: 55%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #0c5b6f;
     text-align: center;
     display: block;
@@ -23,7 +23,7 @@
     width: 55%;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #0c5b6f;
     text-align: center;
     display: block;
@@ -66,8 +66,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 60%;
-    padding-top: 3em;
+    width: 40%;
+    padding-top: 5em;
     padding-bottom: 4em;
 
 }
@@ -114,8 +114,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 70%;
-    padding-top: 3em;
+    width: 50%;
+    padding-top: 4em;
     padding-bottom: 4em;
 
 }
@@ -162,7 +162,7 @@ h2 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 
